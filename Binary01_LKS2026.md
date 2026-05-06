@@ -16,8 +16,11 @@
 
 Sebuah program menerima input dari pengguna.
 Program tersebut tidak melakukan pengecekan panjang input.
+
 ·	Analisis perilaku program
+
 ·	Temukan cara untuk memicu kondisi tidak normal
+
 ·	Dapatkan flag
 
 ## Analisis Masalah
