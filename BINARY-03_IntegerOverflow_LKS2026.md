@@ -26,10 +26,9 @@ Tugas:
 
 ·	Dapatkan flag
 
-
 ## Analisis Masalah
 
-Menggunakan ghidra untuk decompile file executable
+Menggunakan ghidra untuk decompile file executable.
 
 ## Langkah Penyelesaian
 
@@ -37,15 +36,11 @@ Kami diberi sebuah file executable dengan format `exe`.
 
 Karena file tersebut merupakan file executable windows karena formatnya `exe`, kami menggunakan commnad `wine` untuk menjalankan program, setelah di jalankan, terdapat input untuk memasukan jumlah deposit. Namun sebelum itu, kami mengecek sorce codenya menggunakan `ghidra`, dan mencari fungsi `main`, tapi ternyata, pada fungsi main sudah tercantum flag, jadi kami menggunakan flag tersebut untuk menyelesaikan soal.
 
-
-
 ## Analisis Teknis
 
-–	Informasi terdapat langsung pada source code
+–	Informasi terdapat langsung pada source code.
 
-–	Menggunakan ghidra untuk membaca source code
-
-
+–	Menggunakan ghidra untuk membaca source code.
 
 ## Flag
 
@@ -56,4 +51,3 @@ LKSJATENG{int_overflow_bug}
 ## Kesimpulan
 
 Penggunaan `ghidra` untuk decompile atau membaca source code sebuah file executeable dan penggunaan `wine` untuk run program windows atau format `.exe`.
-

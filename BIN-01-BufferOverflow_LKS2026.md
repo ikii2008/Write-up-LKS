@@ -25,7 +25,7 @@ Program tersebut tidak melakukan pengecekan panjang input.
 
 ## Analisis Masalah
 
-Menggunakan tools online untuk membaca atau decompile file executable
+Menggunakan tools online untuk membaca atau decompile file executable.
 
 ## Langkah Penyelesaian
 
