@@ -7,7 +7,7 @@
 |------|--------|
 | **Team** | **CTFdiary** |
 | **Affiliation** | **SMK Tamtama 1 Sidareja** |
-| **Category** | **WEB Exploitation** |
+| **Category** | **Web Exploitation** |
 | **Challange Name** | **WEB-05 - File Konfigurasi Bocor (LFI)** |
 
 ---

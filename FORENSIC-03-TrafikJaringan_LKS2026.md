@@ -27,7 +27,7 @@ Tugas:
 
 ## Analisis Masalah
 
-·	Menggunakan wireshark untuk analisis jaringan
+·	Menggunakan `wireshark` untuk analisis jaringan
 
 ·	Memfilter trafik untuk mempermudah dalam analisis
 

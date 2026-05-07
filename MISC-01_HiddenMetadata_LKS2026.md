@@ -24,7 +24,7 @@ Sebuah foto ditemukan di internet.
 
 ·	Dapatkan flag
 
-·	Menggunakan exiftool
+·	Menggunakan `exiftool`
 
 ## Langkah Penyelesaian
 

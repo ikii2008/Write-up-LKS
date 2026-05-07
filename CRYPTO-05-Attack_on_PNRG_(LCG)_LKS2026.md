@@ -75,7 +75,7 @@ Muncul output `274`, sesuai format flag, kami menginputkan output ini ke flag, l
 
 ## Analisis Teknis
 
-Scripting python untuk lcg menentukan output acak selanjutnya
+Scripting python untuk lcg menentukan output acak selanjutnya.
 
 ## Flag
 

@@ -33,7 +33,7 @@ Menggunakan tools `binwalk` untuk mengekstrak file tersembunyi di file image.
 
 ## Langkah Penyelesaian
 
-Pada soal ini, kami diberi sebuah file, kami mendownloadnya menggunakan wget. File tersebut dikompres dengan `zip`.
+Pada soal ini, kami diberi sebuah file, kami mendownloadnya menggunakan `wget`. File tersebut dikompres dengan `zip`.
 
 Kami mengekstraknya menggunakan command `unzip`.
 
