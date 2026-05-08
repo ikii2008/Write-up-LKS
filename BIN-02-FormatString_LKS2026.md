@@ -32,9 +32,21 @@ Pemanfaatan bug format string yang biasanya pada fungsi printf. Menggunakan %p u
 
 Pada soal ini, kami mendapatkan sebuah file executeable `exe`, kami menjalankan file tersebut dengan `wine`. Di program ini, kami diminta untuk memasukan pesan, namun pada soal tercantum tentang format string, yang dimana format string biasanya memiliki bug pada fungsi `printf` yaitu tidak ada filter seperti `%s` pada fungsi printf. Jadi kami memasukan input `%p` untuk memicu bug dan agar program menampilkan alamat program.
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/bin-02.1-execute_file.png" alt="bin-02.1-execute_file">
+</p>
+
 Kami mendapatkan alamatnya, kemudian kami menuju `cybercheff` untuk mencoba mendecode teks yang diberikan.
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/bin-02.2-decode_hex_cyber_cheff.png" alt="bin-02.2-decode_hex_cyber_cheff">
+</p>
+
 Disini terdapat teks aneh, kami mencoba memfilter teks tersebut dengan menghapus teks yang tidak digunakan dan memasukkan resep `reverse` untuk membalik teks.
+
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/bin-02.3-reverse_cyber_cheff.png" alt="bin-02.3-reverse_cyber_cheff">
+</p>
 
 Kami mendapatkan teks yang sepertinya merupakan flag, jadi kami menyusun flagnya dan menginputkan flag tersebut pada soal.
 
