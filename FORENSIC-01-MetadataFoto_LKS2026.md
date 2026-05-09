@@ -52,3 +52,7 @@ LKSJATENG{hidden_metadata}
 ## Kesimpulan
 
 Penggunaan exiftool untuk metadata.
+
+---
+
+*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2026*
