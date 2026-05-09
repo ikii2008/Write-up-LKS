@@ -35,7 +35,15 @@ Menggunakan tools `binwalk` untuk mengekstrak file tersembunyi di file image.
 
 Pada soal ini, kami diberi sebuah file, kami mendownloadnya menggunakan `wget`. File tersebut dikompres dengan `zip`.
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/forensic-02.1-download_file.png" alt="forensic-02.1-download_file">
+</p>
+
 Kami mengekstraknya menggunakan command `unzip`.
+
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/forensic-02.2-extract_file.png" alt="forensic-02.2-extract_file">
+</p>
 
 Terdapat file image, pada soal,diketahui terdapat sebuah file tersembunyi, jadi kami mencoba menggunakan command:
 
@@ -44,7 +52,15 @@ binwalk –e
 ```
 Untuk mengekstrak file tersebut.
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/forensic-02.3-binwalk.png" alt="forensic-02.3-binwalk">
+</p>
+
 Setelah di ekstrak, muncul direktori baru, kami masuk ke direktori itu, dan mengecek isinya.
+
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/forensic-02.4-flag_found.png" alt="forensic-02.4-flag_found">
+</p>
 
 Pada direktori `_image.png.extracted`, terdapat file `secret.txt` yang cukup mencurigakan, jadi kami membaca file tersebut dengan command `cat`, dan kami mendapatkan flagnya.
 
