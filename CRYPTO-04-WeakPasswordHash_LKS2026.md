@@ -72,13 +72,13 @@ Hashing dengan tools online.
 ## Flag
 
 ```
-
----
-
-*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2026*
 LKSJATENG{weak_password_hash}
 ```
 
 ## Kesimpulan
 
 Encoding hash dan reverse.
+
+---
+
+*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2026*
