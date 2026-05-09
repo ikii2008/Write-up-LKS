@@ -68,8 +68,6 @@ icat -o 360448 disk.flag.img 2371
 
 Dan boomm, kami dapat flagnya.
 
----
-
 ## Flag
 
 ```
