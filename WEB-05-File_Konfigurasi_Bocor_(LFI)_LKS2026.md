@@ -52,3 +52,7 @@ LKSJATENG{local_file_inclusion}
 ## Kesimpulan
 
 Url path edit.
+
+---
+
+*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2026*
