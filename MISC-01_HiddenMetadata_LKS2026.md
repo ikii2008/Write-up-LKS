@@ -49,3 +49,7 @@ LKSJATENG{metadata_flags}
 ## Kesimpulan
 
 Informasi dapat disembunyikan pada  file image.
+
+---
+
+*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2026*
