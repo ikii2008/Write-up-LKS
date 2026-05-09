@@ -56,3 +56,7 @@ LKSJATENG{scripting_power}
 ## Kesimpulan
 
 Decoding hex dengan python.
+
+---
+
+*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2026*
