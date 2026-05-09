@@ -35,6 +35,10 @@ Kerentanan pada path web.
 
 Disini kami di arahkan ke web, lalu kami mencoba untuk mengedit url dan mengganti pagenya ke `flag.txt`.
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/web05.1-flag.png" alt="web05.1-flag">
+</p>
+
 ## Analisis Teknis
 
 User atau client dapat mengakses path tertentu.
