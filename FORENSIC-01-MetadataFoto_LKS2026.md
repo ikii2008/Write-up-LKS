@@ -33,6 +33,10 @@ Penggunaan tools `exiftool` untuk metadata file image.
 
 Kami diberi sebuah file image, kemudian pada soal, tercantum tentang `metadata`, jadi kami menggunakan tools `exiftool` untuk metadata file image tersebut.
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/forensic-01.1-exiftool_image.png" alt="forensic-01.1-exiftool_image">
+</p>
+
 Dan kami mendapatkan flagnya.
 
 ## Analisis Teknis
