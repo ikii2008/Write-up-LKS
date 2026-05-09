@@ -66,3 +66,7 @@ LKSJATENG{Iwan_123456}
 ## Kesimpulan
 
 Histori trafik jaringan dapat dibaca menggunakan wireshark, filterisasi dapat mempermudah proses analisis.
+
+---
+
+*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2026*
