@@ -39,6 +39,10 @@ Pada file yang diberikan, terdapat teks encoding yang dari cirinya seperti di en
 
 Jadi kami menggunakan `python` untuk decoding dan menggunakan script sebagai berikut:
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/misc-02.1-scripting_python.png" alt="misc-02.1-scripting_python">
+</p>
+
 ## Analisis Teknis
 
 Menambahkan `“0x”` pada tiap kata, yang merupakan format hex, kemudian scripting menggunakan python.
