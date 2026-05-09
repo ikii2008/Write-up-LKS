@@ -94,3 +94,7 @@ LKSJATENG{274}
 ## Kesimpulan
 
 Menebak atau menentukan output acak selanjutnya yang merupakan bagian materi lcg dari attack on pnrg, dengan script python.
+
+---
+
+*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2026*
