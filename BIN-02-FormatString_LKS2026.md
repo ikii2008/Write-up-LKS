@@ -63,3 +63,7 @@ LKSJATENG{format_string_bug}
 ## Kesimpulan
 
 Pemanfaatan bug format string pada fungsi printf.
+
+---
+
+*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2026*
