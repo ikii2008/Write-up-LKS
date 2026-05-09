@@ -77,3 +77,7 @@ LKSJATENG{hidden_file_found}
 ## Kesimpulan
 
 Image dapat menyimpan file tersembunyi.
+
+---
+
+*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2026*
