@@ -51,4 +51,4 @@ Penggunaan tools online untuk decompile file executeable.
 
 ---
 
-*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2025*
+*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2026*
