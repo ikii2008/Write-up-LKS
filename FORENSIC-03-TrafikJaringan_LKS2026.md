@@ -35,9 +35,21 @@ Tugas:
 
 Pada soal ini, kami diberi sebuah file `pcap`.
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/forensic-03.1-pcap_file.png" alt="forensic-03.1-pcap_file">
+</p>
+
 Kami menggunakan `wireshark` untuk analisis trafik `pcap` tersebut. Pada soal tercantum bahwa kami harus mencari informasi sensitif yang dikirimkan, jadi kami memfilter analisis untuk mencari `stream http` dengan info `POST`, karena pada soal di cantumkan informasi sensitif yang di kirimkan.
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/forensic-03.2-searching_for_information.png" alt="forensic-03.2-searching_for_information">
+</p>
+
 Kami mencoba mengecek informasi pada stream tersebut dengan klik kanan, lalu menu `follow`, dan pilih `follow http stream`.
+
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/forensic-03.3-information_found.png" alt="forensic-03.3-information_found">
+</p>
 
 Disini terdapat informasi yang sangat sensitif, yaitu username dan password, pada soal terdapat format flag yaitu `LKSJATENG{user_pass}`, jadi kami mengedit format tersebut dan mencantumkan informasi yang kami dapat pada format flag menjadi `LKSJATENG{Iwan_123456}`.
 
