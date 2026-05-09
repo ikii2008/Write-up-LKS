@@ -34,7 +34,15 @@ Menggunakan ghidra untuk decompile file executable.
 
 Kami diberi sebuah file executable dengan format `exe`. 
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/bin-03.1-execute_file.png" alt="bin-03.1-execute_file">
+</p>
+
 Karena file tersebut merupakan file executable windows karena formatnya `exe`, kami menggunakan commnad `wine` untuk menjalankan program, setelah di jalankan, terdapat input untuk memasukan jumlah deposit. Namun sebelum itu, kami mengecek sorce codenya menggunakan `ghidra`, dan mencari fungsi `main`, tapi ternyata, pada fungsi main sudah tercantum flag, jadi kami menggunakan flag tersebut untuk menyelesaikan soal.
+
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/bin-03.2-decompile.png" alt="bin-03.2-decompile">
+</p>
 
 ## Analisis Teknis
 
