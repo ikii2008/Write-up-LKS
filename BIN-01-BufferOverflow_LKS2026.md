@@ -48,3 +48,7 @@ LKSJATENG{bsc_buffer_overflow}
 ## Kesimpulan
 
 Penggunaan tools online untuk decompile file executeable.
+
+---
+
+*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2025*
