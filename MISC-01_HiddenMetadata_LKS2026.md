@@ -30,6 +30,10 @@ Sebuah foto ditemukan di internet.
 
 Pada soal ini, kami diberi file `image`, kami mencoba menggunakan `exiftool` untuk metadata sesuai pada soal yang menyebutkan metadata.
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/misc-01.1-metadata.png" alt="misc-01.1-metadata">
+</p>
+
 Kami mendapatkan flagnya.
 
 ## Analisis Teknis
