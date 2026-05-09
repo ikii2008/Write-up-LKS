@@ -59,3 +59,7 @@ LKSJATENG{int_overflow_bug}
 ## Kesimpulan
 
 Penggunaan `ghidra` untuk decompile atau membaca source code sebuah file executeable dan penggunaan `wine` untuk run program windows atau format `.exe`.
+
+---
+
+*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2026*
