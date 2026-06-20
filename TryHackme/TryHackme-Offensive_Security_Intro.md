@@ -19,11 +19,11 @@ Link Gambar
 
 Pada task 2 ini dijelaskan bahwa ruangan ini menggunakan desktop virtual untuk simulasi, dan pengguna akan diarahkan ke sistem virtual yang dimaksud setelah mengklik menu view site yang tersedia. 
 
-Sebelum lanjut ke sistem virtual, ada deskripsi yang di sediakan untuk situs tersebut, yaitu 'Aplikasi perbankan palsu yang disebut FakeBank akan diluncurkan. Ketika  laboratorium dimuat, Anda akan melihat aplikasi perbankan berjalan di  browser Anda.'. Dan pada room ini pengguna harus mencari 'berapa nomor rekening bank yang ditampilkan dalam aplikasi FakeBank'.
+Sebelum lanjut ke sistem virtual, ada deskripsi yang di sediakan untuk situs tersebut, yaitu `Aplikasi perbankan palsu yang disebut FakeBank akan diluncurkan. Ketika  laboratorium dimuat, Anda akan melihat aplikasi perbankan berjalan di  browser Anda.`. Dan pada room ini pengguna harus mencari `berapa nomor rekening bank yang ditampilkan dalam aplikasi FakeBank`.
 
 link Gambar
 
-Setelah pengguna menuju ke situs yang tersedia, pengguna akan di arahkan menuju sistem, yang dimana akan ditampilkan situs dengan nama 'FakeBank'. Pada situs ini terdapat beberapa informasi yang tersedia seperti akun, nomor rekening serta transaksi. Sesuai dengan pertanyaan yang diberikan yaitu berapa nomor rekening yang ditampilkan pada FakeBank, nomor rekening yang ditampilkan adalah '8881'.
+Setelah pengguna menuju ke situs yang tersedia, pengguna akan di arahkan menuju sistem, yang dimana akan ditampilkan situs dengan nama `FakeBank`. Pada situs ini terdapat beberapa informasi yang tersedia seperti akun, nomor rekening serta transaksi. Sesuai dengan pertanyaan yang diberikan yaitu berapa nomor rekening yang ditampilkan pada FakeBank, nomor rekening yang ditampilkan adalah `8881`.
 
 link Gambar
 
@@ -42,38 +42,38 @@ Salah satu kesalahan umum yang dilakukan situs web adalah membiarkan halaman ter
 
 Di dalam terminal, salin dan tempel perintah dirb di bawah ini dan tunggu hingga selesai. Setiap baris dari keluaran yang dimulai dengan + adalah halaman yang telah ditemukan.
 
-'''bash
+```bash
 dirb http://fakebank.thm
-''''
+````
 
-'Dirb' akan menemukan dua URL. Gunakan informasi ini untuk menjawab pertanyaan di bawah ini.
+`Dirb` akan menemukan dua URL. Gunakan informasi ini untuk menjawab pertanyaan di bawah ini.
 
-Pada tugas kali ini, user akan menggunakan tools 'dirbuster'.
+Pada tugas kali ini, user akan menggunakan tools `dirbuster`.
 
-'Dirbuster' adalah tools yang digunakan untuk brute force agar user dapat menemukan direktori serta file tersembunyi  pada sebuah server website.
-
-link Gambar
-
-Pada situs yang disediakan, user akan secara langsung disediakan sebuah terminal untuk menjalankan tools dirbuster. Sesuai dengan deskripsi yang tersedia, kita akan menggunakan command 'dirb http://fakebank.thm'.
+`Dirbuster` adalah tools yang digunakan untuk brute force agar user dapat menemukan direktori serta file tersembunyi  pada sebuah server website.
 
 link Gambar
 
-Scan telah selesai, 'dirbuster' telah menemukan dua direktori yaitu '/bank-transfer' dan '/images'. Sebelumnya sudah diketahui bahwa ada direktori 'images' pada server website dan kita ditanya apa direktori tersembunyi lainnya, jadi kita akan menjawab task 3 dengan 'http://fakebank.thm/bank-transfer'.
+Pada situs yang disediakan, user akan secara langsung disediakan sebuah terminal untuk menjalankan tools dirbuster. Sesuai dengan deskripsi yang tersedia, kita akan menggunakan command `dirb http://fakebank.thm`.
+
+link Gambar
+
+Scan telah selesai, `dirbuster` telah menemukan dua direktori yaitu `/bank-transfer` dan `/images`. Sebelumnya sudah diketahui bahwa ada direktori `images` pada server website dan kita ditanya apa direktori tersembunyi lainnya, jadi kita akan menjawab task 3 dengan `http://fakebank.thm/bank-transfer`.
 
 link Gambar
 
 ## Task 4 Attack the Admin Page
 ---
 
-Pada tugas 4, user diharuskan menemukan panel admin tersembunyi yang memungkinkan user menambahkan uang ke akunnya. Pada tugas ini, dijelaskan bahwa kita harus menuju ke panel 'admin', pada task 3, kita menemukan direktori yaitu 'bank-transfer', yang dimana pada task 4 ini juga user diharuskan menggunakan direktori tersebut untuk menggali informasi yang dibutuhkan. Jadi disini kita akan menggunakan teknik 'URL path exploit' berupa 'directory traversal'.
+Pada tugas 4, user diharuskan menemukan panel admin tersembunyi yang memungkinkan user menambahkan uang ke akunnya. Pada tugas ini, dijelaskan bahwa kita harus menuju ke panel `admin`, pada task 3, kita menemukan direktori yaitu `bank-transfer`, yang dimana pada task 4 ini juga user diharuskan menggunakan direktori tersebut untuk menggali informasi yang dibutuhkan. Jadi disini kita akan menggunakan teknik `URL path exploit` berupa `directory traversal`.
 
 link Gambar
 
-Situs yang disediakan akan mengarahkan kita ke website 'FakeBank', sesuai  dengan instruksi, kita harus menambahkan '/bank-transfer' ke URL.
+Situs yang disediakan akan mengarahkan kita ke website `FakeBank`, sesuai  dengan instruksi, kita harus menambahkan `/bank-transfer` ke URL.
 
 link Gambar
 
-Pada page ini, kita diharuskan memasukan nomor akun '8881' dan nominal uang '$2000' atau lebih.
+Pada page ini, kita diharuskan memasukan nomor akun `8881` dan nominal uang `$2000` atau lebih.
 
 link Gambar
 
@@ -86,6 +86,6 @@ FLAG: BANK-HACKED
 ## Kesimpulan
 ---
 
-Pada room ini, kita diajarkan beberapa teknik dan teori peretasan website, seperti penggunaan 'dirbuster' dan teknik 'directory traversal' yang dimana tools dan teknik tersebut dapat saling terkait dan merupakan salah satu celah yang dapat dimanfaatkan oleh attacker untuk mengexploitasi sebuah web.
+Pada room ini, kita diajarkan beberapa teknik dan teori peretasan website, seperti penggunaan `dirbuster` dan teknik `directory traversal` yang dimana tools dan teknik tersebut dapat saling terkait dan merupakan salah satu celah yang dapat dimanfaatkan oleh attacker untuk mengexploitasi sebuah web.
 
 
