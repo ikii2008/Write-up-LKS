@@ -23,7 +23,7 @@ Pada tugas 1, dijelaskan bahwa room ini akan membawa user ke pelatihan peretasan
 
 Pada task 2 ini dijelaskan bahwa ruangan ini menggunakan desktop virtual untuk simulasi, dan pengguna akan diarahkan ke sistem virtual yang dimaksud setelah mengklik menu view site yang tersedia. 
 
-Sebelum lanjut ke sistem virtual, ada deskripsi yang di sediakan untuk situs tersebut, yaitu `Aplikasi perbankan palsu yang disebut FakeBank akan diluncurkan. Ketika  laboratorium dimuat, Anda akan melihat aplikasi perbankan berjalan di  browser Anda.`. Dan pada room ini pengguna harus mencari `berapa nomor rekening bank yang ditampilkan dalam aplikasi FakeBank`.
+Sebelum lanjut ke sistem virtual, ada deskripsi yang di sediakan untuk situs tersebut, yaitu `Aplikasi perbankan palsu yang disebut FakeBank akan diluncurkan. Ketika  laboratorium dimuat, Anda akan melihat aplikasi perbankan berjalan di  browser Anda`. Dan pada room ini pengguna harus mencari `berapa nomor rekening bank yang ditampilkan dalam aplikasi FakeBank`.
 
 <p align="center">
   <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/TryHackme/Offensive_Security_Intro/task2-site.png" alt="task2-site">
