@@ -3,6 +3,10 @@
 
 ---
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/lks2025.1-challange.png" alt="lks2025.1-challange">
+</p>
+
 | Info | Detail |
 |------|--------|
 | **Type** | Forensic |
@@ -16,51 +20,53 @@
 
 Pada soal kami diberikan sebuah link yang membawa kami untuk mendownload sebuah file. Setelah didownload, file tersebut merupakan file `disk.img`.
 
-### Langkah 1 — Cek partisi dengan `mmls`
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/lks2025.2-disk_image.png" alt="lks2025.2-disk_image">
+</p>
 
-Karena ini merupakan file `disk.img`, kami mencoba menggunakan command `mmls` untuk melihat di mana sistem Linux start.
-
-```bash
-mmls disk.img
-```
-
-Melalui command ini kami mendapati bahwa **start point ada pada `360448`**.
-
-### Langkah 2 — List isi disk dengan `fls`
-
-Kemudian kami menggunakan command `fls` untuk melihat file di dalamnya.
+Karena ini merupakan file disk.img maka kami mencoba menggunakan command mmls untuk melihat dimana sistem linux start.
 
 ```bash
-fls -o 360448 disk.img
+mmls disk.flag.img
 ```
 
-Di sini terlihat direktori root ada pada inode **`1995`**.
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/lks2025.3-mmls.png" alt="lks2025.3-mmls">
+</p>
 
-### Langkah 3 — Masuk ke direktori root
-
-Kami mencoba masuk ke direktori tersebut menggunakan `fls` kembali.
+Melalui command ini kami mendapati bahwa start poin ada pada 360448. Kemudian kami menggunakan command fls untuk melihat file di dalamnya.
 
 ```bash
-fls -o 360448 disk.img 1995
+fls -o 360448 disk.flag.img
 ```
 
-Kami menemukan sebuah direktori yang mencurigakan: **`my_folder`**.
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/lks2025.4-fls.png" alt="lks2025.4-fls">
+</p>
 
-### Langkah 4 — Cek isi `my_folder`
+Disini terlihat direktori root ada pada 1995, maka kami mencoba masuk ke direktori tersebut menggunakan command fls kembali. 
 
 ```bash
-fls -o 360448 disk.img <inode_my_folder>
+fls -o 360448 disk.flag.img 1995
 ```
 
-Ada **2 buah file** yang keduanya menyertakan teks `"flag"`. Kami mencoba membaca kedua file tersebut satu per satu menggunakan command `icat`.
+Kemudian kami menemukan sebuah direktori yang mencurigakan, yaitu my_folder, kemudian kami melihat ke direktori tersebut menggunakan command fls. 
 
 ```bash
-icat -o 360448 disk.img <inode_file>
+fls -o 360448 disk.flag.img 3981
 ```
 
-Dan **boom**, kami dapat flagnya! 🎉
+Ada 2 buah file yangn keduanya menyertakan text “flag” dan kami mencoba membaca kedua file itu satu-persatu menggunakan command icat.
 
----
+```bash
+icat -o 360448 disk.flag.img 2371
+```
+
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/lks2025.5-flag.png" alt="lks2025.5-flag">
+</p>
+
+Dan boomm, kami dapat flagnya.
 
 ## Flag
 

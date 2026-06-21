@@ -31,6 +31,10 @@ Menggunakan tools online untuk membaca atau decompile file executable.
 
 Pada soal ini, kami diberi sebuah file executable dengan format exe, kami mencoba menggunakan tools online bernama `decompiler exploler`. Saat sudah di decompile, ternyata flag tercantum pada source code. Dilihat tools binary ninja pada web tersebut.
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/bin-01.1-decompile_in_decompiler_exploler.png" alt="bin-01.1-decompile_in_decompiler_exploler">
+</p>
+
 ## Analisis Teknis
 
 Informasi terdapat pada source code saat di decompile.
@@ -44,3 +48,7 @@ LKSJATENG{bsc_buffer_overflow}
 ## Kesimpulan
 
 Penggunaan tools online untuk decompile file executeable.
+
+---
+
+*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2026*

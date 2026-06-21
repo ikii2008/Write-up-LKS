@@ -33,6 +33,10 @@ Menggunakan python untuk scripting untuk memprediksi angka yang muncul selanjutn
 
 Pada tantangan ini, kami diberi file `txt`. Kami membacanya dan isinya sebagai berikut:
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/crypto-05.1-read_file.png" alt="crypto-05.1-read_file">
+</p>
+
 Kami diberi beberapa angka, dan ada rumus lcg yaitu: 
 
 ```
@@ -71,6 +75,10 @@ print(x5)
 
 Lalu kami menjalankan script tersebut dengan `python 3`.
 
+<p align="center">
+  <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/crypto-05.2-exec_python.png" alt="crypto-05.2-exec_python">
+</p>
+
 Muncul output `274`, sesuai format flag, kami menginputkan output ini ke flag, lalu menginputkan flagnya ke soal.
 
 ## Analisis Teknis
@@ -86,3 +94,7 @@ LKSJATENG{274}
 ## Kesimpulan
 
 Menebak atau menentukan output acak selanjutnya yang merupakan bagian materi lcg dari attack on pnrg, dengan script python.
+
+---
+
+*Write-up oleh: Wiki · LKS Cyber Security Kab. Cilacap 2026*
