@@ -81,31 +81,31 @@ Scan telah selesai, `dirbuster` telah menemukan dua direktori yaitu `/bank-trans
 ## Task 4 Attack the Admin Page
 ---
 
-<p align="center>
+<p align="center">
 	<img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/TryHackme/Offensive_Security_Intro/task4.png" alt="task4">
 </p>
 
 Pada tugas 4, user diharuskan menemukan panel admin tersembunyi yang memungkinkan user menambahkan uang ke akunnya. Pada tugas ini, dijelaskan bahwa kita harus menuju ke panel `admin`, pada task 3, kita menemukan direktori yaitu `bank-transfer`, yang dimana pada task 4 ini juga user diharuskan menggunakan direktori tersebut untuk menggali informasi yang dibutuhkan. Jadi disini kita akan menggunakan teknik `URL path exploit` berupa `directory traversal`.
 
-<p align="center>
+<p align="center">
 	<img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/TryHackme/Offensive_Security_Intro/task4-site.png" alt="task4-site">
 </p>
 
 Situs yang disediakan akan mengarahkan kita ke website `FakeBank`, sesuai  dengan instruksi, kita harus menambahkan `/bank-transfer` ke URL.
 
-<p align="center>
+<p align="center">
 	<img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/TryHackme/Offensive_Security_Intro/task4-bank-transfer.png" alt="task4-bank-transfer">
 </p>
 
 Pada page ini, kita diharuskan memasukan nomor akun `8881` dan nominal uang `$2000` atau lebih.
 
-<p align="center>
+<p align="center">
 	<img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/TryHackme/Offensive_Security_Intro/task4-flag.png" alt="task4-flag">
 </p>
 
 Setelah klik deposit, muncul sebuah flag, yang berarti kita mendapatkan jawaban untuk tugas 4 ini.
 
-<p align="center>
+<p align="center">
 	<img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/TryHackme/Offensive_Security_Intro/task4-complete.png" alt="task4-complete">
 </p>
 
