@@ -109,7 +109,9 @@ Setelah klik deposit, muncul sebuah flag, yang berarti kita mendapatkan jawaban 
 	<img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/TryHackme/Offensive_Security_Intro/task4-complete.png" alt="task4-complete">
 </p>
 
+```
 FLAG: BANK-HACKED
+```
 
 ## Kesimpulan
 ---
