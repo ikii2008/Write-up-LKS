@@ -6,6 +6,8 @@
     <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/picoCTF/Binary_Digits/Challange.png" alt"challange">
 </p>
 
+---
+
 | Info | Detail |
 |------|--------|
 | **Category** | Forensics |
