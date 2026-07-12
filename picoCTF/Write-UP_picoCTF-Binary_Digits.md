@@ -10,7 +10,9 @@
 
 | Info | Detail |
 |------|--------|
+| **Challange Name** | Binary Digits |
 | **Category** | Forensics |
+| **Dificulty** | Easy |
 | **Points** | 100 |
 | **Hint** | - |
 
