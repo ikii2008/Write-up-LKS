@@ -10,7 +10,7 @@
 
 | Info | Detail |
 |------|--------|
-| **Challange Name** | Binary Digits |
+| **Challenge Name** | Binary Digits |
 | **Category** | Forensics |
 | **Dificulty** | Easy |
 | **Points** | 100 |
