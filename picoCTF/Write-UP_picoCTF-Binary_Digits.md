@@ -51,7 +51,6 @@ Didapatkan sebuah output berupa gambar, dan di dalam gambar tersebut ada sebuah 
 
 Berikut ini adalah gambarnya:
 
-link
 <p align="center">
     <img src="https://github.com/ikii2008/Write-up-LKS/blob/main/asset/picoCTF/Binary_Digits/image.png" alt"flag image">
 </p>
