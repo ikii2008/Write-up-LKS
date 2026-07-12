@@ -7,9 +7,10 @@
 </p>
 
 | Info | Detail |
-| Category | Forensics |
-| Points | 100 |
-| Hint | - |
+|------|--------|
+| **Category** | Forensics |
+| **Points** | 100 |
+| **Hint** | - |
 
 ---
 
