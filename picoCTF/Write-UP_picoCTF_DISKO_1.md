@@ -14,8 +14,7 @@
 | **Category** | Forensics |
 | **Dificulty** | Easy |
 | **Points** | 1 |
-| **Hint** | Maybe Strings could help? If only there was a way to do that?
- |
+| **Hint** | Maybe Strings could help? If only there was a way to do that? |
 
 ---
 
