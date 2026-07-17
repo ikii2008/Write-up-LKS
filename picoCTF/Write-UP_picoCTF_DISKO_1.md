@@ -1,4 +1,4 @@
-# Write-UP: picoCTF -
+# Write-UP: picoCTF - DISKO 1
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Info | Detail |
 |------|--------|
-| **Challenge Name** | DISKO_1 |
+| **Challenge Name** | DISKO 1 |
 | **Category** | Forensics |
 | **Dificulty** | Easy |
 | **Points** | 1 |
